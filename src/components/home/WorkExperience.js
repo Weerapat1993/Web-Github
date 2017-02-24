@@ -13,12 +13,18 @@ class WorkExperience extends Component {
         <h2 style={bold}>Work Experience</h2>
         <hr/>
         <ul className="timeline timeline-inverse">
-          <TimeLabel bg="bg-blue" label="30 Oct 1993" />
+          <TimeLabel bg="bg-blue" label="1 Mar 2017" />
           <Timeline
             icon="fa fa-envelope bg-blue"
             location="Bangkok, Thailand"
-            header="Test"
-            body="Sarah Young accepted your friend request" />
+            header="Dotography Co, Ltd."
+            body="Position : Front-end Developer" />
+          <TimeLabel bg="bg-green" label="1 July 2016" />
+            <Timeline
+              icon="fa fa-envelope bg-green"
+              location="Bangkok, Thailand"
+              header="Internet Pubilc Thailand Co, Ltd."
+              body="Position : PHP Developer" />
           <TimeIcon icon="fa fa-clock-o bg-gray" />
         </ul>
         <br/>

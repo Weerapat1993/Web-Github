@@ -7,7 +7,7 @@ class Profile extends Component {
     }
     return (
       <div>
-        <h2 style={bold}>Education</h2>
+        <h2 style={bold}>Profile</h2>
         <hr/>
       </div>
     );

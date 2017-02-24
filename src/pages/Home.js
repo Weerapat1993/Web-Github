@@ -3,6 +3,8 @@ import Header from '../components/layouts/Header';
 import WorkExperience from '../components/home/WorkExperience';
 import Education from '../components/home/Education';
 import Skill from '../components/home/Skill';
+import Language from '../components/home/Language';
+import Interest from '../components/home/Interest';
 
 const tab = {
   height: 80
@@ -37,7 +39,7 @@ class App extends Component {
                   <p className="text-muted">Frontend Developer</p>
                 </div>
                 <div className="col-sm-2 text-center">
-                  <img className="profile-user-img img-responsive img-circle" src="/img/user4-128x128.jpg" role="presentation" />
+                  <img className="profile-user-img img-responsive img-circle" src="/images/profile.jpg" role="presentation" />
                 </div>
                 <div className="col-sm-5 text-right">
                   <table style={width100}>
@@ -71,8 +73,9 @@ class App extends Component {
                 <div className="col-md-6">
                   <h2 className="text-right" style={bold}>Skills & Competences</h2>
                   <hr/>
-                  <strong><i className="fa fa-pencil margin-r-5"></i> Skills</strong>
                   <Skill />
+                  <Language />
+                  <Interest />
                 </div>
               </div>
             </div>

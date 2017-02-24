@@ -12,8 +12,8 @@ class Header extends Component {
         </h1>
         <ol className="breadcrumb">
           <li><a href="#/"><i className="fa fa-home"></i> Home</a></li>
-          <li><a href="#">Layout</a></li>
-          <li className="active">Top Navigation</li>
+          {/*<li><a href="#">Layout</a></li>
+          <li className="active">Top Navigation</li>*/}
         </ol>
       </section>
     );
