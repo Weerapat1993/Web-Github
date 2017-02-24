@@ -2,12 +2,16 @@ import React, { Component } from 'react';
 
 class Menu extends Component {
   render() {
+    const textMenu = {
+      color: '#00BCD4',
+      fontWeight: 'bold'
+    };
     return (
-      <header className="main-header">
+      <div>
         <nav className="navbar navbar-fixed-top navbar-inverse">
           <div className="container">
             <div className="navbar-header">
-              <a href="/index2.html" className="navbar-brand"><b>Weerapat</b></a>
+              <a href="#/" className="navbar-brand" style={textMenu}>Weerapat</a>
               <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
                 <i className="fa fa-bars"></i>
               </button>
@@ -129,7 +133,7 @@ class Menu extends Component {
         <br/>
         <br/>
         <br/>
-      </header>
+      </div>
     );
   }
 }

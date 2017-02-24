@@ -17,12 +17,15 @@ class Interest extends Component {
       <div>
         <h2 style={bold}>Interest</h2>
         <hr/>
-
-        <p>
-          {this.state.interestData.map(info =>
-            <span className={`label label-${ info.color }`} key={info.id} >{info.name}</span> 
-          )}
-        </p>
+        <div className="row">
+          <div className="col-md-12">
+            {this.state.interestData.map(info =>
+                <div className="col-xs-12">
+                <span className={`label label-${ info.color }`} key={info.id} >{info.name}</span>
+                </div>
+            )}
+          </div>
+        </div>
       </div>
     );
   }
