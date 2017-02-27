@@ -18,13 +18,13 @@ class WorkExperience extends Component {
             icon="fa fa-envelope bg-blue"
             location="Bangkok, Thailand"
             header="Dotography Co, Ltd."
-            body="Position : Front-end Developer" />
+            body="Position : Front-end Developer (React)" />
           <TimeLabel bg="bg-green" label="1 July 2016" />
             <Timeline
               icon="fa fa-envelope bg-green"
               location="Bangkok, Thailand"
               header="Internet Pubilc Thailand Co, Ltd."
-              body="Position : PHP Developer" />
+              body="Position : PHP Developer (Laravel)" />
           <TimeIcon icon="fa fa-clock-o bg-gray" />
         </ul>
         <br/>

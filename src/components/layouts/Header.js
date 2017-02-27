@@ -9,6 +9,7 @@ class Header extends Component {
       <section className="content-header">
         <h1 style={bold}>
           {this.props.header}
+          <small>{this.props.small}</small>
         </h1>
         <ol className="breadcrumb">
           <li><a href="#/"><i className="fa fa-home"></i> Home</a></li>
