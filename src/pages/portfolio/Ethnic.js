@@ -18,7 +18,7 @@ class Ethnic extends Component {
           <div className="box box-widget">
             <div className="box-header with-border">
               <div className="user-block">
-                <img className="img-circle" src="/images/code/Laravel.png" role="presentation" />
+                <img src="/images/code/Laravel.png" role="presentation" />
                 <span className="username"><a onClick={this.HistoryBack}>ASEAN Ethnic Groups</a></span>
                 <span className="description">ฐานข้อมูลกลุ่มชาติพันธุ์ข้ามแดนอาเซียน</span>
               </div>

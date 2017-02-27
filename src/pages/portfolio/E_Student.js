@@ -16,7 +16,7 @@ class E_Student extends Component {
           <div className="box box-widget">
             <div className="box-header with-border">
               <div className="user-block">
-                <img className="img-circle" src="/images/code/Laravel.png" role="presentation" />
+                <img src="/images/code/Laravel.png" role="presentation" />
                 <span className="username"><a onClick={this.HistoryBack}>E-Student</a></span>
                 <span className="description">ระบบลงทะเบียนเรียนออนไลน์</span>
               </div>

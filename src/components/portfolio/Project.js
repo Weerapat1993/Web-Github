@@ -8,7 +8,7 @@ class Project extends Component {
         <div className="box box-widget">
           <div className="box-header with-border">
             <div className="user-block">
-              <img className="img-circle" src={ this.props.code } role="presentation" />
+              <img src={ this.props.code } role="presentation" />
               <span className="username"><a href={`#/${ this.props.url }`}>{this.props.title}</a></span>
               <span className="description">{ this.props.detail }</span>
             </div>

@@ -17,7 +17,7 @@ class E_Exam extends Component {
           <div className="box box-widget">
             <div className="box-header with-border">
               <div className="user-block">
-                <img className="img-circle" src="/images/code/Laravel.png" role="presentation" />
+                <img src="/images/code/Laravel.png" role="presentation" />
                 <span className="username"><a onClick={this.HistoryBack}>E-Exam</a></span>
                 <span className="description">ระบบรับสมัครสอบออนไลน์</span>
               </div>
