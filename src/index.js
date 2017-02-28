@@ -4,6 +4,7 @@ import { Route, Router, IndexRoute, hashHistory } from 'react-router';
 import Home from './pages/Home';
 import Layout from './components/layouts/Layout';
 import About from './pages/About';
+import Todos from './pages/Todos';
 import Portfolio from './pages/Portfolio';
 import E_Student from './pages/portfolio/E_Student';
 import E_Exam from './pages/portfolio/E_Exam';
@@ -23,6 +24,7 @@ ReactDOM.render(
       <Route path="/" component={Layout}>
         <IndexRoute component={Home}></IndexRoute>
         <Route path="about" name="about" component={About}></Route>
+        <Route path="todos(show/:id)" name="todos" component={Todos}></Route>
         <Route path="portfolio" name="portfolio" component={Portfolio}></Route>
         <Route path="portfolio/e-student" name="e-student" component={E_Student}></Route>
         <Route path="portfolio/e-exam" name="e-exam" component={E_Exam}></Route>

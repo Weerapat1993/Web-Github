@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import NavLink from './NavLink';
 
 class Menu extends Component {
   render() {
@@ -19,9 +20,18 @@ class Menu extends Component {
 
             <div className="collapse navbar-collapse pull-left" id="navbar-collapse">
               <ul className="nav navbar-nav">
-                <li className="active"><a href="#/">Home <span className="sr-only">(current)</span></a></li>
-                <li><a href="#/about">About</a></li>
-                <li><a href="#/portfolio">Portfolio</a></li>
+                <NavLink to="/" onlyActiveOnIndex>
+                    Home
+                </NavLink>
+                <NavLink to="/about">
+                    About
+                </NavLink>
+                <NavLink to="/todos">
+                    Todos
+                </NavLink>
+                <NavLink to="/portfolio">
+                    Portfolio
+                </NavLink>
                 {/*
                 <li className="dropdown">
                   <a href="#" className="dropdown-toggle" data-toggle="dropdown">Dropdown <span className="caret"></span></a>
@@ -38,6 +48,11 @@ class Menu extends Component {
                 */}
               </ul>
             </div>
+            <ul className="nav navbar-nav navbar-right">
+              <li><a href="https://github.com/Weerapat1993" target="_blank">
+                <i className="fa fa-github fa-lg"></i> Github
+              </a></li>
+            </ul>
             {/*
             <div className="navbar-custom-menu">
               <ul className="nav navbar-nav">

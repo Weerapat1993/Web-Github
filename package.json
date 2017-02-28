@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "admin-lte": "^2.3.11",
+    "firebase": "^3.6.10",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-router": "^3.0.2"
